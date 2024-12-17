@@ -1,0 +1,40 @@
+{
+  "local_request_date": "2024-12-18 02:46:07",
+  "response_data": {
+    "Id": 9003872,
+    "AccountingType": "Gross",
+    "Name": "Raghav",
+    "Email": "rgupta4_be21@thapar.edu",
+    "Registered": 1734382065820,
+    "Modified": 1734460084999,
+    "IsArchived": false,
+    "IsBlocked": false,
+    "IsReadonly": false,
+    "IsValid": true,
+    "IsWebApiEnabled": true,
+    "Leverage": 33,
+    "Balance": 99985.85,
+    "BalanceCurrency": "USD",
+    "Profit": 0.0,
+    "Commission": 0.0,
+    "AgentCommission": 0.0,
+    "Swap": 0.0,
+    "Rebate": 0.0,
+    "Equity": 99985.85,
+    "Margin": 0.0,
+    "MarginCallLevel": 100,
+    "StopOutLevel": 50,
+    "ReportCurrency": "USD",
+    "IsTokenCommissionEnabled": false,
+    "Throttling": [
+      {
+        "Protocol": "Rest",
+        "SessionsPerAccount": 2,
+        "RequestsPerSecond": 5,
+        "ThrottlingMethods": [],
+        "ConcurrentRequestCount": 100
+      }
+    ],
+    "IsLongOnly": false
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "trade_risk": 5,
+    "pairs": {        
+        "GBPJPY": {
+            "n_ma": 20,
+            "n_std": 2.5,
+            "maxspread": 0.04,
+            "mingain": 0.06,
+            "riskreward": 2
+        },
+        "EURGBP": {
+            "n_ma": 20,
+            "n_std": 2.5,
+            "maxspread": 0.04,
+            "mingain": 0.06,
+            "riskreward": 2
+        },
+        "EURUSD": {
+            "n_ma": 20,
+            "n_std": 2.5,
+            "maxspread": 0.04,
+            "mingain": 0.06,
+            "riskreward": 2
+        }
+    }
+}

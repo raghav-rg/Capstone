@@ -1,0 +1,89 @@
+# Python-related ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+instance/
+.env
+*.env
+*.log
+venv/
+.env.*.backup
+*.egg-info/
+dist/
+build/
+.eggs/
+*.bak
+
+# Flask-related ignores
+*.pid
+*.pot
+*.py~   # Temporary Python files
+*.manifest
+
+# Node.js-related ignores
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+coverage/
+.DS_Store
+*.log
+logs
+tmp/
+dist/
+*.lock
+.vscode/
+.idea/
+*.swp
+*.sublime-workspace
+.babelrc
+.eslintrc.js
+.npmrc
+package-lock.json
+yarn.lock
+
+# Frontend build artifacts
+build/
+public/
+dist/
+*.bundle.js
+*.map
+
+# OS-specific files
+Thumbs.db
+.DS_Store
+
+# Environment & secrets
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*
+
+# Logs and debug files
+*.log
+debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional: Ignore Docker files if using Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Optional: IDE and editor files
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Optional: Git itself
+.git/
+
+# Ignore all .pkl files (Pickle files)
+*.pkl
